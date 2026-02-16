@@ -1,3 +1,7 @@
+[![PyPI](https://img.shields.io/pypi/v/ldraney-linkedin-sdk)](https://pypi.org/project/ldraney-linkedin-sdk/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
 # linkedin-sdk
 
 Python SDK for the LinkedIn API v202510.

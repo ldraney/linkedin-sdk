@@ -9,10 +9,26 @@ description = "Python SDK for the LinkedIn API v202510"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
+authors = [{name = "Lucas Draney"}]
+keywords = ["linkedin", "api", "sdk", "python"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+]
 dependencies = [
     "httpx>=0.27",
     "python-dotenv>=1.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/ldraney/linkedin-sdk"
+Issues = "https://github.com/ldraney/linkedin-sdk/issues"
 
 [project.optional-dependencies]
 dev = [
